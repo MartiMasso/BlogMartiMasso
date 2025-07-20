@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Vite cache
+.vite/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Optional: coverage reports
+coverage/
+
+# Optional: lockfiles for other package managers
+pnpm-lock.yaml
+yarn.lock
